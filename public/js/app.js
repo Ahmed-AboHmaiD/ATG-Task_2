@@ -10,25 +10,13 @@ gsap.utils.toArray(".section").forEach((container) => {
       toggleActions: "restart none restart reset",
     },
     opacity: 1,
-    duration: 0.2,
-  });
-
-  gsap.utils.toArray(".heading").forEach((header) => {
-    gsap.to(header, {
-      scrollTrigger: {
-        trigger: container,
-        start: "top top",
-        toggleActions: "restart none restart restart",
-      },
-      y: -10,
-      duration: 0.8,
-    });
+    duration: 0.1,
   });
 });
 
 /*
  * SVG Animation
- * */ 
+ * */
 
 // Sec. Two
 gsap.to(".transrgwht", {
