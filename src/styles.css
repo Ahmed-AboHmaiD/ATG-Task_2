@@ -9,3 +9,19 @@ html {
 body {
   font-family: "Lato", sans-serif;
 }
+
+.owl-dots {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  background-color:rgb(196, 196, 196);
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+  background-color: white;
+}

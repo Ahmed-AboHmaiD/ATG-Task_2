@@ -191,3 +191,21 @@ gsap.to("#Dots7 .dotsstro7", {
   },
   opacity: 1,
 });
+
+$('.owl-carousel').owlCarousel({
+  loop:true,
+  autoplay: false,
+  autoplayTimeout: 4000,
+  nav:false,
+  responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:1
+      },
+      1000:{
+          items:1
+      }
+  }
+})
