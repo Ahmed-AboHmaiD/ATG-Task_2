@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Task 2</title>
   </head>
-  <body>
+  <body class="xmd:overflow-x-hidden">
     <div
       class="fixed hidden xmd:block h-screen bg-transparent md:w-1/3 xl:w-1/2"
     >
@@ -234,10 +234,10 @@
     <!-- Section One -->
     <div class="relative flex section z-20">
       <div
-        class="relative hidden xmd:block h-screen bg-purple-800 text-white md:w-1/3 xl:w-1/2 z-20"
+        class="relative hidden xmd:block h-screen bg-section_1-100 text-white md:w-1/3 xl:w-1/2 z-20"
       >
         <div
-          class="absolute top-0 right-0 circle bg-purple-800 rounded-full translate-x-1/3 translate-y-1/4 h-80 w-[335px] p-5"
+          class="absolute top-0 right-0 circle bg-section_1-100 rounded-full translate-x-1/3 translate-y-1/4 h-80 w-[335px] p-5"
         >
           <div class="relative">
             <div
@@ -287,16 +287,16 @@
       <div
         class="absolute right-0 h-screen md:w-2/3 xl:w-1/2 z-10 flex items-end"
       >
-        <div class="flex ml-9 justify-between gap-0 sm:gap-6 xl:gap-0 items-ed">
+        <div class="flex absolute">
           <img
             src="./assets/nexgtv-entertainment-mobile-app-development.png"
             alt="nexgtv"
-            class="max-w-full md:w-[280px] lg:w-[320px] h-[600px] md:h-[660px] xl:w-[360px]"
+            class="max-w-full w-[340px]"
           />
           <img
             src="./assets/nexgtv-mobile-app-ui-design.png"
             alt="nexgtv"
-            class="max-w-full md:w-[280px] lg:w-[320px] h-[600px] md:h-[660px] xl:w-[360px] relative right-7"
+            class="max-w-full w-[340px]"
           />
         </div>
       </div>
@@ -305,10 +305,10 @@
     <!-- Section Two -->
     <div class="relative flex section z-20 opacity-0">
       <div
-        class="relative h-screen hidden xmd:block bg-p bg-violet-700 text-white md:w-1/3 xl:w-1/2 z-20"
+        class="relative h-screen hidden xmd:block bg-p bg-section_2-100 text-white md:w-1/3 xl:w-1/2 z-20"
       >
         <div
-          class="absolute top-0 right-0 circle bg-violet-700 rounded-full translate-x-1/3 translate-y-1/4 h-80 w-[335px] p-5"
+          class="absolute top-0 right-0 circle bg-section_2-100 rounded-full translate-x-1/3 translate-y-1/4 h-80 w-[335px] p-5"
         >
           <div class="relative">
             <div
@@ -344,7 +344,7 @@
         </div>
       </div>
       <div
-        class="absolute right-0 h-screen md:w-2/3 xl:w-1/2 z-10 flex bg-indigo-900"
+        class="absolute right-0 h-screen md:w-2/3 xl:w-1/2 z-10 flex bg-section_2-200"
       >
         <div class="flex relative justify-between">
           <div
@@ -502,11 +502,11 @@
               class="max-w-full"
             />
           </div>
-          <div class="absolute -bottom-5 -right-[750px]">
+          <div class="absolute -bottom-5 -right-[730px]">
             <img
               src="./assets/dominos-bread1.png"
               alt="measure-body"
-              class="max-w-full w-[300px]"
+              class="max-w-full w-[290px]"
             />
           </div>
           <div class="absolute -top-[150px] -right-[740px]">
@@ -523,6 +523,228 @@
               class="max-w-full"
             />
           </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section Five -->
+    <div class="relative flex section z-20 opacity-0">
+      <div
+        class="relative h-screen hidden xmd:block bg-p bg-section_5-100 text-white md:w-1/3 xl:w-1/2 z-20"
+      >
+        <div
+          class="absolute top-0 right-0 circle bg-section_5-100 rounded-full translate-x-1/3 translate-y-1/4 h-80 w-[335px] p-5"
+        >
+          <div class="relative">
+            <div
+              class="circle-info -translate-x-1/4 mt-8 w-full bg-section flex flex-col justify-center h-52"
+            >
+              <p class="circle-heading font-light text-2xl">Text Heading</p>
+              <p class="circle-title font-bold text-5xl my-1">Text Heading</p>
+              <p class="circle-text font-light text-right text-2xl">
+                Footer headline
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="px-14 py-8 absolute bottom-0 w-full">
+          <div class="mb-12 w-3/4">
+            <p class="heading font-bold text-5xl mb-4">
+              ABC <span id="info">567</span>
+            </p>
+            <p class="title font-light text-lg">
+              We are the best AR development company in the world
+            </p>
+          </div>
+          <div class="flex justify-between">
+            <div
+              class="text-md xl:text-lg flex items-center font-light cursor-pointer hover:underline transition-all duration-75 hover:animate-pulse"
+            >
+              <p class="mr-2">View Case Study</p>
+              <img src="./assets/arrow.svg" alt="arrow" class="w-6 mt-2" />
+            </div>
+            <p
+              class="uppercase tracking-biggest text-md mt-3 cursor-pointer font-light"
+            >
+              Skip
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="absolute right-0 h-screen md:w-2/3 xl:w-1/2 z-10 flex bg-gradient-to-tr from-section_5-300 to-section_5-200"
+      >
+        <div class="flex relative">
+          <div class="absolute -bottom-10 -right-[330px]">
+            <img
+              src="./assets/karavan_2.png"
+              alt="nasa"
+              class="max-w-full w-[230px]"
+            />
+          </div>
+          <div class="absolute -right-[540px]">
+            <img
+              src="./assets/social-networking-app-case-study.png"
+              alt="measure-body"
+              class="max-w-full w-[200px]"
+            />
+          </div>
+          <div class="absolute -top-[80px] -right-[330px]">
+            <img
+              src="./assets/karavan-social-networking-app-screen.png"
+              alt="measure-body"
+              class="max-w-full w-[200px]"
+            />
+          </div>
+          <div class="absolute -bottom-[180px] -right-[550px]">
+            <img
+              src="./assets/karavan-social-networking-app-screen-2.png"
+              alt="measure-body"
+              class="max-w-full w-[220px]"
+            />
+          </div>
+          <div class="absolute bottom-[250px] -right-[740px]">
+            <img
+              src="./assets/developers-for-social-media-app.png"
+              alt="measure-body"
+              class="max-w-full w-[200px]"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section Six -->
+    <div class="relative flex section z-20 opacity-0">
+      <div
+        class="relative h-screen hidden xmd:block bg-p bg-section_6-100 text-white md:w-1/3 xl:w-1/2 z-20"
+      >
+        <div
+          class="absolute top-0 right-0 circle bg-section_6-100 rounded-full translate-x-1/3 translate-y-1/4 h-80 w-[335px] p-5"
+        >
+          <div class="relative">
+            <div
+              class="circle-info -translate-x-1/4 mt-8 w-full bg-section flex flex-col justify-center h-52"
+            >
+              <p class="circle-heading font-light text-2xl">
+                Developing ERP Solution For
+              </p>
+              <p class="circle-title font-bold text-5xl my-1">Text Heading</p>
+              <p class="circle-text font-light text-right text-2xl">
+                in furniyure industry
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="px-14 py-8 absolute bottom-0 w-full">
+          <div class="mb-12 w-3/4">
+            <p class="heading font-bold text-5xl mb-4">
+              ABC <span id="info">567</span>
+            </p>
+            <p class="title font-light text-lg">
+              Best sence 2017
+              <br />
+              We offer wide-range of web development and app development
+            </p>
+          </div>
+          <div class="flex justify-between">
+            <div
+              class="text-md xl:text-lg flex items-center font-light cursor-pointer hover:underline transition-all duration-75 hover:animate-pulse"
+            >
+              <p class="mr-2">View Case Study</p>
+              <img src="./assets/arrow.svg" alt="arrow" class="w-6 mt-2" />
+            </div>
+            <p
+              class="uppercase tracking-biggest text-md mt-3 cursor-pointer font-light"
+            >
+              Skip
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="absolute right-0 h-screen md:w-2/3 xl:w-1/2 z-10 flex bg-cover"
+        style="background-image: url(./assets/interior.jpg)"
+      >
+        <div class="relative">
+          <div>
+            <img
+              src="./assets/erp-app-development-service.png"
+              alt="erp-app"
+              class="max-w-full"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section Seven -->
+    <div class="relative flex section z-20 opacity-0">
+      <div
+        class="relative hidden xmd:block h-screen bg-section_7-100 text-white md:w-1/3 xl:w-1/2 z-20"
+      >
+        <div
+          class="absolute top-0 right-0 circle bg-section_7-100 rounded-full translate-x-1/3 translate-y-1/4 h-80 w-[335px] p-5"
+        >
+          <div class="relative">
+            <div
+              class="circle-info -translate-x-1/4 mt-8 w-full bg-section flex flex-col justify-center h-52"
+            >
+              <p class="circle-heading font-light text-2xl">
+                Biggest Classifieds
+              </p>
+              <p class="circle-title font-bold text-5xl my-1">East Asia</p>
+              <p class="circle-text font-light text-right text-2xl">
+                Countries
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="px-14 pb-8 absolute bottom-0 w-full">
+          <div class="mb-6">
+            <img
+              src="./assets/mobile-app-of-the-year-by-entrepreneur.png"
+              alt="world"
+              class="w-[250px] xl:w-auto"
+            />
+          </div>
+          <div class="mb-11 w-3/4">
+            <p class="heading font-bold text-3xl lg:text-4xl mb-4">
+              ABC <span id="info">23478 </span>
+            </p>
+            <p class="title font-light text-md xl:text-lg">
+              We are the best web development company in the world
+            </p>
+          </div>
+          <div class="flex justify-between">
+            <div class="text-lg flex items-center">
+              <p class="mr-2 text-white/50">Comming Soon</p>
+            </div>
+            <p
+              class="uppercase tracking-biggest text-md mt-3 cursor-pointer font-light"
+            >
+              Skip
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="absolute right-0 h-screen md:w-2/3 xl:w-1/2 z-10 flex items-center bg-section_7-200"
+      >
+        <div class="flex absolute left-[140px]">
+          <img
+            src="./assets/melltoo-img1.png"
+            alt="nexgtv"
+            class="max-w-full w-[260px]"
+          />
+          <img
+            src="./assets/melltoo-img2.png"
+            alt="nexgtv"
+            class="max-w-full w-[300px]"
+          />
         </div>
       </div>
     </div>

@@ -4,6 +4,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        section_1: {
+          100: "#6311A8",
+        },
+        section_2: {
+          100: "#4A27CC",
+          200: "#1C0362",
+        },
         section_3: {
           100: "#0E123A",
           200: "#14154B",
@@ -16,6 +23,13 @@ module.exports = {
           100: "#1D4CA4",
           200: "#2DCDDD",
           300: "#26A7B3",
+        },
+        section_6: {
+          100: "#012C91",
+        },
+        section_7: {
+          100: "#00834C",
+          200: "#00B769",
         },
       },
       letterSpacing: {
