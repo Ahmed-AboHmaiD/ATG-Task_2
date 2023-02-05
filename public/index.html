@@ -16,12 +16,20 @@
   </head>
   <body>
     <div
-      class="fixed left-0 bg-section h-screen text-white sm:w-1/2 transition-all duration-75 z-10"
+      class="fixed hidden xmd:block h-screen bg-transparent md:w-1/3 xl:w-1/2"
     >
       <div
-        class="absolute right-0 bg-section rounded-full translate-x-1/3 translate-y-1/4 h-80 p-5"
+        class="absolute top-0 right-0 bg-transparent rounded-full translate-x-1/3 translate-y-1/4 h-80 w-[335px] p-5"
+      ></div>
+    </div>
+
+    <div
+      class="fixed hidden xmd:block h-screen bg-transparent md:w-1/3 xl:w-1/2 z-30"
+    >
+      <div
+        class="absolute top-0 -right-5 bg-transparent rounded-full translate-x-1/3 translate-y-1/4 h-80 w-[335px]"
       >
-        <div class="absolute top-[5px] w-[310px] z-10">
+        <div class="absolute top-[5px] w-[310px]">
           <svg
             version="1.1"
             id="transring"
@@ -58,6 +66,7 @@
                 stroke-width: 2;
                 stroke-miterlimit: 10;
                 stroke-dasharray: 10, 1000;
+                transition: all 0.4s linear;
               "
               d="M84.2,85c31.3-31.5,74.7-51,122.7-51c95.5,0,173,77.5,173,173s-77.5,173-173,173
       c-47.8,0-91-19.4-122.3-50.7"
@@ -219,40 +228,304 @@
             </g>
           </svg>
         </div>
+      </div>
+    </div>
 
-        <div class="relative">
-          <div
-            class="-translate-x-1/4 mt-8 w-full bg-section flex flex-col justify-center h-52"
-          >
-            <p class="font-light text-2xl">Developing ERP Solution For</p>
-            <p class="font-bold text-5xl my-1">Text Headline</p>
-            <p class="font-light text-right text-2xl">in furniture industry</p>
+    <!-- Section One -->
+    <div class="relative flex section z-20">
+      <div
+        class="relative hidden xmd:block h-screen bg-purple-800 text-white md:w-1/3 xl:w-1/2 z-20"
+      >
+        <div
+          class="absolute top-0 right-0 circle bg-purple-800 rounded-full translate-x-1/3 translate-y-1/4 h-80 w-[335px] p-5"
+        >
+          <div class="relative">
+            <div
+              class="circle-info -translate-x-1/4 mt-8 w-full bg-section flex flex-col justify-center h-52"
+            >
+              <p class="circle-title font-bold text-[37px] my-1">
+                25M+ Downloads
+              </p>
+              <p class="circle-text font-light text-right text-lg">
+                on appstore & google playstore
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="px-14 pb-8 absolute bottom-0 w-full">
+          <div class="mb-6">
+            <img
+              src="./assets/world-communication-awards-for-best-digital-experience.png"
+              alt="world"
+              class="w-[250px] xl:w-auto"
+            />
+          </div>
+          <div class="mb-11 w-3/4">
+            <p class="heading font-bold text-3xl lg:text-4xl mb-4">
+              ABC <span id="info">678</span>
+            </p>
+            <p class="title font-light text-md xl:text-lg">
+              We are the best web development company in the world
+            </p>
+          </div>
+          <div class="flex justify-between">
+            <div
+              class="text-md xl:text-lg flex items-center font-light cursor-pointer hover:underline transition-all duration-75 hover:animate-pulse"
+            >
+              <p class="mr-2">View Case Study</p>
+              <img src="./assets/arrow.svg" alt="arrow" class="w-6 mt-2" />
+            </div>
+            <p
+              class="uppercase tracking-biggest text-md mt-3 cursor-pointer font-light"
+            >
+              Skip
+            </p>
           </div>
         </div>
       </div>
 
-      <div class="px-14 py-8 absolute bottom-0">
-        <div class="mb-12 w-3/4">
-          <p class="font-bold text-5xl mb-4">ABC <span id="info">678</span></p>
-          <p class="font-light text-lg">
-            We are the best web development company in the world
-          </p>
-        </div>
-        <div class="flex justify-between">
-          <div class="text-lg flex items-center font-light">
-            <p class="mr-2">View Case Study</p>
-            <img src="./assets/arrow.svg" alt="arrow" class="w-6 mt-2" />
-          </div>
-          <p
-            class="uppercase tracking-biggest text-md mt-3 cursor-pointe font-light"
-          >
-            Skip
-          </p>
+      <div
+        class="absolute right-0 h-screen md:w-2/3 xl:w-1/2 z-10 flex items-end"
+      >
+        <div class="flex ml-9 justify-between gap-0 sm:gap-6 xl:gap-0 items-ed">
+          <img
+            src="./assets/nexgtv-entertainment-mobile-app-development.png"
+            alt="nexgtv"
+            class="max-w-full md:w-[280px] lg:w-[320px] h-[600px] md:h-[660px] xl:w-[360px]"
+          />
+          <img
+            src="./assets/nexgtv-mobile-app-ui-design.png"
+            alt="nexgtv"
+            class="max-w-full md:w-[280px] lg:w-[320px] h-[600px] md:h-[660px] xl:w-[360px] relative right-7"
+          />
         </div>
       </div>
     </div>
 
-    <div class="fixed right-0 sm:w-1/2 h-auto z-0"></div>
+    <!-- Section Two -->
+    <div class="relative flex section z-20 opacity-0">
+      <div
+        class="relative h-screen hidden xmd:block bg-p bg-violet-700 text-white md:w-1/3 xl:w-1/2 z-20"
+      >
+        <div
+          class="absolute top-0 right-0 circle bg-violet-700 rounded-full translate-x-1/3 translate-y-1/4 h-80 w-[335px] p-5"
+        >
+          <div class="relative">
+            <div
+              class="circle-info -translate-x-1/4 mt-8 w-full bg-section flex flex-col justify-center h-52"
+            >
+              <p class="circle-heading font-light text-2xl">The Next Big</p>
+              <p class="circle-title font-bold text-5xl my-1">Blockchain</p>
+              <p class="circle-text font-light text-right text-2xl">
+                Revolution
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="px-14 py-8 absolute bottom-0 w-full">
+          <div class="mb-12 w-3/4">
+            <p class="heading font-bold text-5xl mb-4">
+              ABC <span id="info">234</span>
+            </p>
+            <p class="title font-light text-lg">
+              We are the best web development company in the world
+            </p>
+          </div>
+          <div class="flex justify-between">
+            <div class="text-lg flex items-center">
+              <p class="mr-2 text-white/50">Comming Soon</p>
+            </div>
+            <p
+              class="uppercase tracking-biggest text-md mt-3 cursor-pointer font-light"
+            >
+              Skip
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="absolute right-0 h-screen md:w-2/3 xl:w-1/2 z-10 flex bg-indigo-900"
+      >
+        <div class="flex relative justify-between">
+          <div
+            class="absolute bottom-[45px] xl:bottom-[113px] left-28 xl:left-40 w-[260px] xl:w-[300px] h-[400px]"
+          >
+            <img
+              src="./assets/veme-blockchain-app-developed.png"
+              alt="nexgtv"
+              class="max-w-full"
+            />
+          </div>
+          <div
+            class="absolute -right-[660px] xl:-right-[750px] w-[260px] xl:w-[300px] h-[400px]"
+          >
+            <img
+              src="./assets/veme-app-ui-design.png"
+              alt="nexgtv"
+              class="max-w-full"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section Three -->
+    <div class="relative flex section z-20 opacity-0">
+      <div
+        class="relative h-screen hidden xmd:block bg-p bg-section_3-100 text-white md:w-1/3 xl:w-1/2 z-20"
+      >
+        <div
+          class="absolute top-0 right-0 circle bg-section_3-100 rounded-full translate-x-1/3 translate-y-1/4 h-80 w-[335px] p-5"
+        >
+          <div class="relative">
+            <div
+              class="circle-info -translate-x-1/4 mt-8 w-full bg-section flex flex-col justify-center h-52"
+            >
+              <p class="circle-heading font-light text-2xl">
+                Powered by advance
+              </p>
+              <p class="circle-title font-bold text-5xl my-1">
+                <img src="./assets/nasa-mobile-app.png" alt="nasa" />
+              </p>
+              <p class="circle-text font-light text-right text-2xl">
+                algorithms
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="px-14 py-8 absolute bottom-0 w-full">
+          <div class="mb-12 w-3/4">
+            <p class="heading font-bold text-5xl mb-4">
+              ABC <span id="info">345</span>
+            </p>
+            <p class="title font-light text-lg">
+              We are the best web development company in the world
+            </p>
+          </div>
+          <div class="flex justify-between">
+            <div class="text-lg flex items-center">
+              <p class="mr-2 text-white/50">Comming Soon</p>
+            </div>
+            <p
+              class="uppercase tracking-biggest text-md mt-3 cursor-pointer font-light"
+            >
+              Skip
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="absolute right-0 h-screen md:w-2/3 xl:w-1/2 z-10 flex bg-section_3-200"
+      >
+        <div class="flex relative justify-between">
+          <div
+            class="absolute bottom-[50px] xl:bottom-[113px] left-32 w-[280px] xl:w-[320px] h-[400px]"
+          >
+            <img
+              src="./assets/nasa-fitness-tracking-mobile-app.png"
+              alt="nasa"
+              class="max-w-full"
+            />
+          </div>
+          <div
+            class="absolute -right-[660px] xl:-right-[750px] w-[250px] h-[400px]"
+          >
+            <img
+              src="./assets/measure-total-body-weight-through-fitness-app.png"
+              alt="measure-body"
+              class="max-w-full"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section Four -->
+    <div class="relative flex section z-20 opacity-0">
+      <div
+        class="relative h-screen hidden xmd:block bg-p bg-section_4-100 text-white md:w-1/3 xl:w-1/2 z-20"
+      >
+        <div
+          class="absolute top-0 right-0 circle bg-section_4-100 rounded-full translate-x-1/3 translate-y-1/4 h-80 w-[335px] p-5"
+        >
+          <div class="relative">
+            <div
+              class="circle-info -translate-x-1/4 mt-8 w-full bg-section flex flex-col justify-center h-52"
+            >
+              <p class="circle-heading font-light text-2xl">Redefining</p>
+              <p class="circle-title font-bold text-5xl my-1">UX Strategy</p>
+              <p class="circle-text font-light text-right text-2xl">
+                and UI design
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="px-14 py-8 absolute bottom-0 w-full">
+          <div class="mb-12 w-3/4">
+            <p class="heading font-bold text-5xl mb-4">
+              ABC <span id="info">456</span>
+            </p>
+            <p class="title font-light text-lg">
+              We are the best web development company in the world
+            </p>
+          </div>
+          <div class="flex justify-between">
+            <div
+              class="text-md xl:text-lg flex items-center font-light cursor-pointer hover:underline transition-all duration-75 hover:animate-pulse"
+            >
+              <p class="mr-2">View Case Study</p>
+              <img src="./assets/arrow.svg" alt="arrow" class="w-6 mt-2" />
+            </div>
+            <p
+              class="uppercase tracking-biggest text-md mt-3 cursor-pointer font-light"
+            >
+              Skip
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="absolute right-0 h-screen md:w-2/3 xl:w-1/2 z-10 flex bg-section_4-200"
+      >
+        <div class="flex relative">
+          <div
+            class="absolute bottom-[50px] xl:bottom-[113px] left-20 w-[280px] xl:w-[320px] h-[300px]"
+          >
+            <img src="./assets/domi-img1.png" alt="nasa" class="max-w-full" />
+          </div>
+          <div class="absolute top-20 -right-[660px] w-[250px] h-[400px]">
+            <img
+              src="./assets/ux-strategy-for-mobile-app-devlopment.png"
+              alt="measure-body"
+              class="max-w-full"
+            />
+          </div>
+          <div class="absolute -bottom-5 -right-[750px]">
+            <img
+              src="./assets/dominos-bread1.png"
+              alt="measure-body"
+              class="max-w-full w-[300px]"
+            />
+          </div>
+          <div class="absolute -top-[150px] -right-[740px]">
+            <img
+              src="./assets/dominos-bread.png"
+              alt="measure-body"
+              class="max-w-full"
+            />
+          </div>
+          <div class="absolute top-0 -right-[260px]">
+            <img
+              src="./assets/pizza_box.png"
+              alt="measure-body"
+              class="max-w-full"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- GSAP -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
