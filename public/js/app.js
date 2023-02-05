@@ -194,7 +194,7 @@ gsap.to("#Dots7 .dotsstro7", {
 
 $('.owl-carousel').owlCarousel({
   loop:true,
-  autoplay: false,
+  autoplay: true,
   autoplayTimeout: 4000,
   nav:false,
   responsive:{
