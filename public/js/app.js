@@ -28,7 +28,7 @@ gsap.utils.toArray(".section").forEach((container) => {
 
 /*
  * SVG Animation
- * */
+ * */ 
 
 // Sec. Two
 gsap.to(".transrgwht", {
@@ -38,6 +38,7 @@ gsap.to(".transrgwht", {
     toggleActions: "restart none restart reset",
   },
   strokeDasharray: "148, 1000",
+  duration: 0.1,
 });
 
 gsap.to("#Dots2 path", {
@@ -66,6 +67,7 @@ gsap.to(".transrgwht", {
     toggleActions: "restart none restart reset",
   },
   strokeDasharray: "289, 1000",
+  duration: 0.1,
 });
 
 gsap.to("#Dots3 path", {
@@ -94,6 +96,7 @@ gsap.to(".transrgwht", {
     toggleActions: "restart none restart reset",
   },
   strokeDasharray: "425, 1000",
+  duration: 0.1,
 });
 
 gsap.to("#Dots4 path", {
@@ -122,6 +125,7 @@ gsap.to(".transrgwht", {
     toggleActions: "restart none restart reset",
   },
   strokeDasharray: "548, 1000",
+  duration: 0.1,
 });
 
 gsap.to("#Dots5 path", {
@@ -150,6 +154,7 @@ gsap.to(".transrgwht", {
     toggleActions: "restart none restart reset",
   },
   strokeDasharray: "688, 1000",
+  duration: 0.1,
 });
 
 gsap.to("#Dots6 path", {
@@ -178,6 +183,7 @@ gsap.to(".transrgwht", {
     toggleActions: "restart none restart reset",
   },
   strokeDasharray: "828, 1000",
+  duration: 0.1,
 });
 
 gsap.to("#Dots7 path", {
